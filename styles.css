@@ -1,0 +1,162 @@
+/* .luckiest-guy-regular {
+    font-family: "Luckiest Guy", cursive;
+    font-weight: 400;
+    font-style: normal;
+  } */
+
+html{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0LPNb6bl_HQjwGEw_AR6iyUhWT1tbdUp_hg&s);
+    color:white;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    /* font-family: "Luckiest Guy", cursive */
+}
+
+header {
+    color: white;
+    text-align: center;
+    position: fixed;
+    background-color:darkkhaki;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    width:100%;
+    z-index:1;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    background: #35424a;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+a{
+    text-decoration: none;
+    padding-left:5rem;
+    padding-right:5rem;
+    font-size: 200%;
+    color:rgb(255, 255, 255);
+}
+li{
+    list-style:none;
+    display: inline-block;
+}
+
+#iFrameContainer{
+    display: none;
+}
+
+.whatismathrun{
+    position: absolute;
+    left: 10rem;
+    top:12.5rem;
+    font-size:300%
+}
+
+.welcometomathrun{
+    position:absolute;
+    top:7.5rem;
+    left:0;
+    right:0;
+    margin:auto;
+    font-size:400%;
+    color:rgb(155, 142, 81);
+}
+
+
+.mathrunis{
+    position:absolute;
+    left: 13rem;
+    width:20rem;
+    top:17.5rem;
+    font-size:175%;
+
+}
+
+.monsterpic{
+    position:absolute;
+    top:17.5rem;
+
+    left:0;
+    right:0;
+    margin:auto;
+    height:25%;
+    border:black solid 12px;
+    border-radius: 25px;
+}
+
+.whatdoesmathrundo{
+    position: absolute;
+    right: 5rem;
+    top:12.5rem;
+    font-size:300%
+}
+
+.mathrunisfor{
+    position:absolute;
+    right: 11.5rem;
+    width:20rem;
+    top:17.5rem;
+    font-size:175%;
+}
+
+.startplaying{
+    font-size:300%;
+}
+
+.playbutton {
+    transition: transform 0.3s; /* add a smooth transition effect */
+    scale:50%;
+    position: absolute;
+    top:5rem;
+    left:0;
+    right:0;
+    margin:auto;
+  }
+  
+  .playbutton:hover {
+    transform: scale(1.1); /* scale up by 10% on hover */
+  }
+
+  .howtoplaypic{
+    scale:20%;
+    border:black scale 20px;
+    border-radius:25px;
+    position:absolute;
+    right:3rem;
+    top:4rem;
+    
+  }
+
+.monstercage{
+    scale:22%;
+    border:black scale 20px;
+    border-radius:25px;
+    position: absolute;
+    top:12%;
+    right:-15%;
+
+    
+}
+
+.monsterchasingme{
+    scale:30%;
+    border:black scale 20px;
+    border-radius:25px;
+    position: absolute;
+    top:20%;
+    right:-23%;
+}
+.images{
+    text-align:center;
+}
